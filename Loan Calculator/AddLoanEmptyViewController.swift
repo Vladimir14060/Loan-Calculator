@@ -321,6 +321,7 @@ class AddLoanEmptyViewController: UIViewController {
         
         buttonLoad.addTarget(self, action: #selector(pushButtonAction), for: .touchUpInside)
     }
+    //вот тут я жестко туплю, мне кажется, ято я модель не понял..(просто тупой еще, к сожалению, но я стараюсь)
     @objc func pushButtonAction() {
         let title = textFieldTitle.text!
         let amount = textFieldAmount.text!
